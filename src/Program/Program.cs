@@ -9,7 +9,7 @@ namespace Ucu.Poo.GameOfLife
     {
         static void Main(string[] args)
         {
-            Archivo archivo = new Archivo(@"../../docs/board.txt");
+            Archivo archivo = new Archivo(@"/./board.txt");
         }
     }
 }
