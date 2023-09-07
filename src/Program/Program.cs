@@ -9,7 +9,11 @@ namespace Ucu.Poo.GameOfLife
     {
         static void Main(string[] args)
         {
-            FileReader archivo = new FileReader(@"/./board.txt");
+            while (true)
+            {
+                Board.gameBoard()
+                FileReader archivo = new FileReader(@"/./board.txt");
+            }
         }
     }
 }
