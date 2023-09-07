@@ -1,12 +1,15 @@
-﻿using System;
-
+using System;
+using System.IO;
+using System.Text;
+using System.Threading;
+using Library;
 namespace Ucu.Poo.GameOfLife
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Archivo archivo = new Archivo(@"../../docs/board.txt");
         }
     }
 }
