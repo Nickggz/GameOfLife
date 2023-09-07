@@ -6,7 +6,7 @@ namespace Library;
 
 public class FileReader
 {
-    public Archivo(string link)
+    public ReadFile(string link)
     {
         this.url = link;
         this.content = File.ReadAllText(url);
